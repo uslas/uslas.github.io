@@ -26,11 +26,16 @@
 [class*="col-"] {
 	float: left;
 }
+body {
+	background-image: url(images/patt.png);
+	font-family: "Roboto", sans-serif;
+}
 header {
 	width: 100%;
 	position: sticky;
-	background: #ccccff;
+	background: #ffffff;
 	float: left;
+	opacity: 0.9;
 }
 .logo {
 	margin-top: 20%;
@@ -84,20 +89,39 @@ a {
 	background-color: #3366cc;
 	border:none;
 	outline: none;
-	background-image: url(icon4.png);
+	background-image: url(images/icon4.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .cart button {
 	margin:35px 0;
-	margin-left: 20px;
-	color: #ffffff;
-	z-index: 2;
+	position: relative;
+	margin-left: 10px;
+	background-color: #fff;
 	width: 40px;
 	height: 40px;
-	background-image: url(icon1.png);
+	background-image: url(images/icon1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	border: none;
 	outline: none;
+	margin-top:
+}
+.circle {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: #3366cc;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-top: 25px;
+	margin-left: 10px;
+	z-index: 2;
+	text-align: center;
+	color: white;
+}
+li a img {
+	width: 10px;
+	height: 10px;
 }
